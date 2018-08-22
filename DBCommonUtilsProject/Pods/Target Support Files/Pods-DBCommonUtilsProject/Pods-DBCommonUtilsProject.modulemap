@@ -1,0 +1,6 @@
+framework module Pods_DBCommonUtilsProject {
+  umbrella header "Pods-DBCommonUtilsProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

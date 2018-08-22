@@ -1,0 +1,6 @@
+framework module SimulateIDFA {
+  umbrella header "SimulateIDFA-umbrella.h"
+
+  export *
+  module * { export * }
+}
