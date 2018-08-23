@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DBCommonUtils"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "DBCommonUtils 基础工具类"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,11 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "MBCommonUtils/**/*.swift"
-  # s.exclude_files = "Classes/Exclude"
+
+ 
+  s.exclude_files = "MBCommonUtils/CommonTools"
+  s.exclude_files = "MBCommonUtils/Extensions"
+  s.exclude_files = "MBCommonUtils/QRCodeTool"
 
   # s.public_header_files = "Classes/**/*.h"
 
