@@ -18,16 +18,16 @@ extension MBProgressHUDProcotol {
     /// 弹出提醒框(默认 1.5S 消失)
     ///
     /// - Parameter text: 提醒的内容
-    public func showMessage(text:String,delay:TimeInterval = 1.5) {
+    public func showMessage(text:String,delay:TimeInterval = 1.5,marginTop:CGFloat = 0) {
         DispatchQueue.main.async {
             let view = kAppWindow as? UIView ?? UIView()
             let hud = MBProgressHUD.showAdded(to: view, animated: true)
-            hud.top = 200.scale()
+            hud.bounds.origin.y = marginTop
             hud.detailsLabel.text = text
             hud.mode = .text
             hud.detailsLabel.font = UIFont.systemFont(ofSize: 14)
             hud.detailsLabel.numberOfLines = 0
-            hud.bezelView.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 1)
+            hud.bezelView.backgroundColor = UIColor.black
             hud.detailsLabel.textColor = UIColor.white
             hud.removeFromSuperViewOnHide = true
             hud.hide(animated: true, afterDelay: delay)
@@ -43,7 +43,7 @@ extension MBProgressHUDProcotol {
             let view = kAppWindow as? UIView ?? UIView()
             let hud = MBProgressHUD.showAdded(to: view, animated: true)
             hud.label.text = text
-            hud.bezelView.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 1)
+            hud.bezelView.backgroundColor = UIColor.black
             hud.label.textColor = UIColor.white
             hud.contentColor = UIColor.white
             hud.removeFromSuperViewOnHide = true

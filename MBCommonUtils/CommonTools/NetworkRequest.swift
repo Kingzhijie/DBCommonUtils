@@ -122,7 +122,7 @@ extension NetworkProcotol {
                     success: @escaping (_ respone : JSON)->Void,
                     failture: @escaping (_ error:Error)->Void) {
 
-        let url = urlString.stringUsingUTF8Encoding()
+        let url = urlString.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) ?? ""
     
         let headers = getHeaders()
         Alamofire.request(url, method: method, parameters: parameters, encoding: encoding, headers: headers).responseJSON { (response) in

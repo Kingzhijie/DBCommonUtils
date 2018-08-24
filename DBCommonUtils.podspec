@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DBCommonUtils"
-  s.version      = "1.0.2"
+  s.version      = "1.0.5"
   s.summary      = "DBCommonUtils 基础工具类"
 
   # This description is used to generate tags and improve search results.
@@ -91,12 +91,29 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MBCommonUtils/**/*.swift"
+  # s.source_files  = "MBCommonUtils/**/*.swift"
 
- 
-  s.exclude_files = "MBCommonUtils/CommonTools"
-  s.exclude_files = "MBCommonUtils/Extensions"
-  s.exclude_files = "MBCommonUtils/QRCodeTool"
+
+  s.subspec 'CommonTools' do |ss|
+    ss.source_files = 'MBCommonUtils/CommonTools/**/*.{swift}'
+    # ss.source_files = 'Extension/Two/*.swift'
+  end
+
+  # s.subspec 'Extensions' do |ss|
+  #   ss.source_files = 'MBCommonUtils/Extensions/*.{swift}'
+  #   # ss.source_files = 'Extension/Two/*.swift'
+  # end
+
+  # s.subspec 'QRCodeTool' do |ss|
+  #   ss.source_files = 'MBCommonUtils/QRCodeTool/*.{swift}'
+  #   # ss.dependency 'MBCommonUtils/CommonTools'
+  #   # ss.dependency 'MBCommonUtils/Extensions'
+  #   # ss.source_files = 'Extension/Two/*.swift'
+  # end
+
+  # s.exclude_files = "MBCommonUtils/CommonTools"
+  # s.exclude_files = "MBCommonUtils/Extensions"
+  # s.exclude_files = "MBCommonUtils/QRCodeTool"
 
   # s.public_header_files = "Classes/**/*.h"
 

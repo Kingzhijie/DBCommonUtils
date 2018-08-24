@@ -14,31 +14,12 @@
 		4CE30DED212D314A0016E189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE30DEB212D314A0016E189 /* LaunchScreen.storyboard */; };
 		4CE30DF8212D314A0016E189 /* DBCommonUtilsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30DF7212D314A0016E189 /* DBCommonUtilsProjectTests.swift */; };
 		4CE30E03212D314A0016E189 /* DBCommonUtilsProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E02212D314A0016E189 /* DBCommonUtilsProjectUITests.swift */; };
-		4CE30E2F212D318A0016E189 /* QRCodeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E12212D318A0016E189 /* QRCodeBaseViewController.swift */; };
-		4CE30E30212D318A0016E189 /* QRCodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E13212D318A0016E189 /* QRCodeTool.swift */; };
-		4CE30E31212D318B0016E189 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E14212D318A0016E189 /* QRCodeView.swift */; };
-		4CE30E32212D318B0016E189 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E16212D318A0016E189 /* UIButtonExtension.swift */; };
-		4CE30E33212D318B0016E189 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E17212D318A0016E189 /* UIImageViewExtension.swift */; };
-		4CE30E34212D318B0016E189 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E18212D318A0016E189 /* UIColorExtension.swift */; };
-		4CE30E35212D318B0016E189 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E19212D318A0016E189 /* NSObjectExtension.swift */; };
-		4CE30E36212D318B0016E189 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E1A212D318A0016E189 /* UIViewControllerExtension.swift */; };
-		4CE30E37212D318B0016E189 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E1B212D318A0016E189 /* UITableViewExtension.swift */; };
-		4CE30E38212D318B0016E189 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E1C212D318A0016E189 /* UIViewExtension.swift */; };
-		4CE30E39212D318B0016E189 /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E1D212D318A0016E189 /* UIBarButtonItemExtension.swift */; };
-		4CE30E3A212D318B0016E189 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E1E212D318A0016E189 /* UIDeviceExtension.swift */; };
-		4CE30E3B212D318B0016E189 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E1F212D318A0016E189 /* UIFontExtension.swift */; };
-		4CE30E3C212D318B0016E189 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E20212D318A0016E189 /* UINavigationControllerExtension.swift */; };
-		4CE30E3D212D318B0016E189 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E21212D318A0016E189 /* StringExtension.swift */; };
-		4CE30E3E212D318B0016E189 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E22212D318A0016E189 /* UIImageExtension.swift */; };
-		4CE30E3F212D318B0016E189 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E23212D318A0016E189 /* UserDefaultsExtension.swift */; };
 		4CE30E40212D318B0016E189 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E25212D318A0016E189 /* Constants.swift */; };
 		4CE30E41212D318B0016E189 /* DB_DateTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E26212D318A0016E189 /* DB_DateTool.swift */; };
 		4CE30E42212D318B0016E189 /* DB_ArchiverSaveTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E27212D318A0016E189 /* DB_ArchiverSaveTool.swift */; };
 		4CE30E43212D318B0016E189 /* MBProgressHUDProcotol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E28212D318A0016E189 /* MBProgressHUDProcotol.swift */; };
-		4CE30E44212D318B0016E189 /* DB_CustomTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E29212D318A0016E189 /* DB_CustomTagsView.swift */; };
 		4CE30E45212D318B0016E189 /* DB_LocationTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E2A212D318A0016E189 /* DB_LocationTool.swift */; };
 		4CE30E46212D318B0016E189 /* BaseTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E2B212D318A0016E189 /* BaseTool.swift */; };
-		4CE30E47212D318B0016E189 /* DB_TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E2C212D318A0016E189 /* DB_TextInputView.swift */; };
 		4CE30E48212D318B0016E189 /* DB_CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E2D212D318A0016E189 /* DB_CustomButton.swift */; };
 		4CE30E49212D318B0016E189 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30E2E212D318A0016E189 /* NetworkRequest.swift */; };
 		E6C29D8F77FD4098C6C1A872 /* Pods_DBCommonUtilsProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA45DD0C0826879A440052B /* Pods_DBCommonUtilsProject.framework */; };
@@ -75,31 +56,12 @@
 		4CE30DFE212D314A0016E189 /* DBCommonUtilsProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBCommonUtilsProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE30E02212D314A0016E189 /* DBCommonUtilsProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBCommonUtilsProjectUITests.swift; sourceTree = "<group>"; };
 		4CE30E04212D314A0016E189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CE30E12212D318A0016E189 /* QRCodeBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeBaseViewController.swift; sourceTree = "<group>"; };
-		4CE30E13212D318A0016E189 /* QRCodeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeTool.swift; sourceTree = "<group>"; };
-		4CE30E14212D318A0016E189 /* QRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
-		4CE30E16212D318A0016E189 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
-		4CE30E17212D318A0016E189 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
-		4CE30E18212D318A0016E189 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		4CE30E19212D318A0016E189 /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
-		4CE30E1A212D318A0016E189 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		4CE30E1B212D318A0016E189 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
-		4CE30E1C212D318A0016E189 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		4CE30E1D212D318A0016E189 /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
-		4CE30E1E212D318A0016E189 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
-		4CE30E1F212D318A0016E189 /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
-		4CE30E20212D318A0016E189 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
-		4CE30E21212D318A0016E189 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		4CE30E22212D318A0016E189 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		4CE30E23212D318A0016E189 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
 		4CE30E25212D318A0016E189 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4CE30E26212D318A0016E189 /* DB_DateTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB_DateTool.swift; sourceTree = "<group>"; };
 		4CE30E27212D318A0016E189 /* DB_ArchiverSaveTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB_ArchiverSaveTool.swift; sourceTree = "<group>"; };
 		4CE30E28212D318A0016E189 /* MBProgressHUDProcotol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressHUDProcotol.swift; sourceTree = "<group>"; };
-		4CE30E29212D318A0016E189 /* DB_CustomTagsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB_CustomTagsView.swift; sourceTree = "<group>"; };
 		4CE30E2A212D318A0016E189 /* DB_LocationTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB_LocationTool.swift; sourceTree = "<group>"; };
 		4CE30E2B212D318A0016E189 /* BaseTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTool.swift; sourceTree = "<group>"; };
-		4CE30E2C212D318A0016E189 /* DB_TextInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB_TextInputView.swift; sourceTree = "<group>"; };
 		4CE30E2D212D318A0016E189 /* DB_CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB_CustomButton.swift; sourceTree = "<group>"; };
 		4CE30E2E212D318A0016E189 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		6CA45DD0C0826879A440052B /* Pods_DBCommonUtilsProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBCommonUtilsProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,43 +152,10 @@
 		4CE30E10212D318A0016E189 /* MBCommonUtils */ = {
 			isa = PBXGroup;
 			children = (
-				4CE30E11212D318A0016E189 /* QRCodeTool */,
-				4CE30E15212D318A0016E189 /* Extensions */,
 				4CE30E24212D318A0016E189 /* CommonTools */,
 			);
 			name = MBCommonUtils;
 			path = ../MBCommonUtils;
-			sourceTree = "<group>";
-		};
-		4CE30E11212D318A0016E189 /* QRCodeTool */ = {
-			isa = PBXGroup;
-			children = (
-				4CE30E12212D318A0016E189 /* QRCodeBaseViewController.swift */,
-				4CE30E13212D318A0016E189 /* QRCodeTool.swift */,
-				4CE30E14212D318A0016E189 /* QRCodeView.swift */,
-			);
-			path = QRCodeTool;
-			sourceTree = "<group>";
-		};
-		4CE30E15212D318A0016E189 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				4CE30E16212D318A0016E189 /* UIButtonExtension.swift */,
-				4CE30E17212D318A0016E189 /* UIImageViewExtension.swift */,
-				4CE30E18212D318A0016E189 /* UIColorExtension.swift */,
-				4CE30E19212D318A0016E189 /* NSObjectExtension.swift */,
-				4CE30E1A212D318A0016E189 /* UIViewControllerExtension.swift */,
-				4CE30E1B212D318A0016E189 /* UITableViewExtension.swift */,
-				4CE30E1C212D318A0016E189 /* UIViewExtension.swift */,
-				4CE30E1D212D318A0016E189 /* UIBarButtonItemExtension.swift */,
-				4CE30E1E212D318A0016E189 /* UIDeviceExtension.swift */,
-				4CE30E1F212D318A0016E189 /* UIFontExtension.swift */,
-				4CE30E20212D318A0016E189 /* UINavigationControllerExtension.swift */,
-				4CE30E21212D318A0016E189 /* StringExtension.swift */,
-				4CE30E22212D318A0016E189 /* UIImageExtension.swift */,
-				4CE30E23212D318A0016E189 /* UserDefaultsExtension.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		4CE30E24212D318A0016E189 /* CommonTools */ = {
@@ -236,10 +165,8 @@
 				4CE30E26212D318A0016E189 /* DB_DateTool.swift */,
 				4CE30E27212D318A0016E189 /* DB_ArchiverSaveTool.swift */,
 				4CE30E28212D318A0016E189 /* MBProgressHUDProcotol.swift */,
-				4CE30E29212D318A0016E189 /* DB_CustomTagsView.swift */,
 				4CE30E2A212D318A0016E189 /* DB_LocationTool.swift */,
 				4CE30E2B212D318A0016E189 /* BaseTool.swift */,
-				4CE30E2C212D318A0016E189 /* DB_TextInputView.swift */,
 				4CE30E2D212D318A0016E189 /* DB_CustomButton.swift */,
 				4CE30E2E212D318A0016E189 /* NetworkRequest.swift */,
 			);
@@ -448,31 +375,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE30DE5212D314A0016E189 /* ViewController.swift in Sources */,
-				4CE30E47212D318B0016E189 /* DB_TextInputView.swift in Sources */,
-				4CE30E3B212D318B0016E189 /* UIFontExtension.swift in Sources */,
-				4CE30E33212D318B0016E189 /* UIImageViewExtension.swift in Sources */,
-				4CE30E3F212D318B0016E189 /* UserDefaultsExtension.swift in Sources */,
-				4CE30E44212D318B0016E189 /* DB_CustomTagsView.swift in Sources */,
-				4CE30E36212D318B0016E189 /* UIViewControllerExtension.swift in Sources */,
-				4CE30E2F212D318A0016E189 /* QRCodeBaseViewController.swift in Sources */,
 				4CE30E43212D318B0016E189 /* MBProgressHUDProcotol.swift in Sources */,
 				4CE30E42212D318B0016E189 /* DB_ArchiverSaveTool.swift in Sources */,
-				4CE30E3E212D318B0016E189 /* UIImageExtension.swift in Sources */,
-				4CE30E34212D318B0016E189 /* UIColorExtension.swift in Sources */,
-				4CE30E37212D318B0016E189 /* UITableViewExtension.swift in Sources */,
 				4CE30E46212D318B0016E189 /* BaseTool.swift in Sources */,
-				4CE30E39212D318B0016E189 /* UIBarButtonItemExtension.swift in Sources */,
-				4CE30E3D212D318B0016E189 /* StringExtension.swift in Sources */,
 				4CE30E48212D318B0016E189 /* DB_CustomButton.swift in Sources */,
-				4CE30E38212D318B0016E189 /* UIViewExtension.swift in Sources */,
-				4CE30E31212D318B0016E189 /* QRCodeView.swift in Sources */,
 				4CE30DE3212D314A0016E189 /* AppDelegate.swift in Sources */,
-				4CE30E30212D318A0016E189 /* QRCodeTool.swift in Sources */,
 				4CE30E40212D318B0016E189 /* Constants.swift in Sources */,
-				4CE30E3A212D318B0016E189 /* UIDeviceExtension.swift in Sources */,
-				4CE30E35212D318B0016E189 /* NSObjectExtension.swift in Sources */,
-				4CE30E32212D318B0016E189 /* UIButtonExtension.swift in Sources */,
-				4CE30E3C212D318B0016E189 /* UINavigationControllerExtension.swift in Sources */,
 				4CE30E41212D318B0016E189 /* DB_DateTool.swift in Sources */,
 				4CE30E45212D318B0016E189 /* DB_LocationTool.swift in Sources */,
 				4CE30E49212D318B0016E189 /* NetworkRequest.swift in Sources */,
